@@ -1,9 +1,5 @@
 ﻿// Heavily modified from Original Source: https://stackoverflow.com/questions/10342260/is-there-any-net-api-to-get-all-the-firewall-rules
 
-// To Compile:
-//   C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe /reference:"C:\Windows\System32\FirewallAPI.dll" /t:exe /out:bin\list_firewall_rules.exe list_firewall_rules.cs
-
-// /reference:"C:\Windows\System32\hnetcfg.dll" 
 using System;
 using NetFwTypeLib;
 
